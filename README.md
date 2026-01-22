@@ -14,7 +14,7 @@ A soft, ethereal colorscheme for Neovim inspired by pastel aesthetics and transl
 ```lua
 {
     "amkillam/frosted-glass.nvim",
-    name = "frosted-glass",
+    priority = 1000,
     lazy = false,
     config = function()
         vim.cmd.colorscheme("frosted-glass")
